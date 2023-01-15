@@ -13,7 +13,7 @@ A78801C00A7890EC04
 ``` assembly
 x 1 let x -14 div
 ```
-2. Let an instruction in the assembly language of the considered arithmetic processor be given as input. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in the instruction there are no variables, it only contains integers and operations. It is guaranteed that all operations will be unsigned).
+2. You are given as input an instruction in the assembly language of the considered arithmetic processor. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in the instruction there are no variables, it only contains integers and operations. It is guaranteed that all operations will be unsigned).
 
 _Example:_
 
@@ -27,7 +27,7 @@ _Example:_
 5
 ```
 
-3. Let an instruction in the assembly language of the considered arithmetic processor be given as input. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in this instruction, unlike the one from exercise 2, there are variables introduced by _let_. It is guaranteed that all operations will be unsigned).
+3. You are given as input an instruction in the assembly language of the considered arithmetic processor. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in this instruction, unlike the one from exercise 2, there are variables introduced by _let_. It is guaranteed that all operations will be unsigned).
 
 _Example:_
 
