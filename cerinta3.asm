@@ -120,7 +120,7 @@ operatie:
 	
 let:
 	popl %eax		
-	popl %ecx		#Variabila
+	popl %ecx
 	subl $97, %ecx
 	movl %eax, (%esi, %ecx, 4)
 	
