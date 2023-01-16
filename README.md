@@ -1,5 +1,7 @@
 ### Computer system architecture :computer: 
 # Reverse Polish notation 
+
+###### The language used is Assembly x86 AT&T syntax.
 **Assignment**: 
 1. A hex string is given as input. It is required to display the corresponding assembly instruction to be executed in the standard output.
 _Example:_
