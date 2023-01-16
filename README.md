@@ -40,16 +40,7 @@ x 1 let 2 x add y 3 let x y add mul
 12
 ```
 
-4. A matrix is given as input and is requested to be displayed in the standard output the matrix after the operations have been applied. (***Note***: It is guaranteed that all operations will be signed).
-
-***We can use the following operations:***
-- add: we add all the elements in the matrix with the value of the operand
-- sub: we subtract from all the elements in the matrix with the value of the operand
-- mul: we multiply all the elements in the matrix by the value of the operand
-- div: we divide all the elements in the matrix by the value of the operand
-- rot90d: we rotate the matrix 90 degrees to the right
-
-A matrix is given as input. It is required to display the matrix after the specified operations have been applied in the standard output. (***Note***: All operations are guaranteed to be signed.)
+4. A matrix is given as input. It is required to display the matrix after the specified operations have been applied in the standard output. (***Note***: All operations are guaranteed to be signed.)
 
 ***The following operations can be used***:
 
