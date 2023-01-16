@@ -1,8 +1,7 @@
 ### Computer system architecture :computer: 
 # Reverse Polish notation 
 **Assignment**: 
-1. A hex string is given as input and is requested to be displayed in the standard output the assembly instruction to be executed.
-
+1. A hex string is given as input. It is required to display the corresponding assembly instruction to be executed in the standard output.
 _Example:_
 
 > _Input_
@@ -13,7 +12,7 @@ A78801C00A7890EC04
 ``` assembly
 x 1 let x -14 div
 ```
-2. You are given as input an instruction in the assembly language of the considered arithmetic processor. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in the instruction there are no variables, it only contains integers and operations. It is guaranteed that all operations will be unsigned).
+2. An instruction in the assembly language of the specified arithmetic processor is given as input. It is required to display the evaluation of the instruction in the standard output. (***Note***: There are no variables in the instruction, only integers and operations. All operations are guaranteed to be unsigned.)
 
 _Example:_
 
@@ -27,7 +26,7 @@ _Example:_
 5
 ```
 
-3. You are given as input an instruction in the assembly language of the considered arithmetic processor. It is requested to be displayed in the standard output the evaluation of the instruction. (***Note***: in this instruction, unlike the one from exercise 2, there are variables introduced by _let_. It is guaranteed that all operations will be unsigned).
+3. An instruction in the assembly language of the specified arithmetic processor is given as input. It is required to display the evaluation of the instruction in the standard output. (Note: Unlike the instruction in exercise 2, this instruction contains variables introduced by let. All operations are guaranteed to be unsigned.)
 
 _Example:_
 
@@ -49,6 +48,16 @@ x 1 let 2 x add y 3 let x y add mul
 - mul: we multiply all the elements in the matrix by the value of the operand
 - div: we divide all the elements in the matrix by the value of the operand
 - rot90d: we rotate the matrix 90 degrees to the right
+
+A matrix is given as input. It is required to display the matrix after the specified operations have been applied in the standard output. (***Note***: All operations are guaranteed to be signed.)
+
+***The following operations can be used***:
+
+- add: all elements in the matrix are added with the value of the operand
+- sub: all elements in the matrix are subtracted by the value of the operand
+- mul: all elements in the matrix are multiplied by the value of the operand
+- div: all elements in the matrix are divided by the value of the operand
+- rot90d: The matrix is rotated 90 degrees to the right.
 
 _Example:_
 
